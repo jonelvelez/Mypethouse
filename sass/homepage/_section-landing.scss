@@ -1,0 +1,93 @@
+ .section-landing{
+    background: rgba(65, 65, 65, 0.521);
+
+    .landing{
+        height: 70vh;
+        background-image: url(../img/landbg2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        z-index: -1;
+    }
+
+    .landingContent{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        color: #fff;
+        text-transform: uppercase;
+
+        .spanOne{
+            font-size: 50px;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgb(0, 0, 0);
+        }
+
+        .spanTwo{
+            font-size: 20px; 
+            font-weight: 500;
+            text-shadow: 2px 2px 8px rgb(0, 0, 0);
+        }
+    }
+
+    .btn{
+        padding-top: 30px;
+        padding-left: 0 !important;
+        .landBtn{
+            padding: 10px;
+            border-radius: 60px;
+            background-color: #fff;
+            box-shadow: 2px 2px 8px rgb(0, 0, 0);
+            text-decoration: none;
+            border: 1px solid rgb(136, 132, 132);
+            color: rgb(48, 46, 46);
+            font-size: 15px;
+            font-weight: 500;
+            &:hover{
+                color: rgb(0, 0, 0);
+                background-color: rgb(207, 194, 194);
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px){
+    .landing{
+        max-width: 100%;
+        background-size: 100% 100%;
+     }
+
+     .spanOne{
+        font-size: 25px !important;
+        font-weight: 700;
+        text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
+
+    .spanTwo{
+        font-size: 10px !important; 
+        font-weight: 500;
+        text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
+
+    .btn{
+        padding-top: 30px;
+        padding-left: 0 !important;
+        .landBtn{
+            padding: 10px;
+            border-radius: 60px;
+            background-color: #fff;
+            box-shadow: 2px 2px 8px rgb(0, 0, 0);
+            text-decoration: none;
+            border: 1px solid rgb(136, 132, 132);
+            color: rgb(48, 46, 46);
+            font-size: 15px;
+            font-weight: 500;
+            &:hover{
+                color: rgb(0, 0, 0);
+                background-color: rgb(207, 194, 194);
+            }
+        }
+    }
+    }
+ }
+ 

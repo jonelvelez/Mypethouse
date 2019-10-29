@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--My CSS-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!--Fontawesome Icon-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap" rel="stylesheet">
+
+    <!--Hover Effect -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover.css">
+
+    
+    <title>Ecommerce</title>
+</head>
+<body style="overflow-x: hidden">
+<section class="section-navbar fixed-top">
+    <div class="top-navbar d-flex justify-content-end">
+        <a class="login" href="#">Login</a>
+        <a class="signup" href="#">SignUp</a>
+        <a class="logout" href="#" style="display: none;">Logout</a>
+        <div class="cart">
+                <i class="fa fa-shopping-cart"></i>
+        </div>
+    </div>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-white">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navTarget">
+            <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="bottom-navbar collapse navbar-collapse" id="navTarget">
+        <a href="index.html">Homepage</a>
+        <a href="product1.html">Product</a>
+        <a href="about.html">About</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="contact.html">Contact</a> 
+        
+        <div class="searchbar">
+                <div class="icon-search">
+                     <i class="fa fa-search"></i>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Search..">
+                </div>
+        </div>
+    </div>
+</nav>
+</section>
+
+<section class="section-landing-appointment">
+    <div class="landing">
+    </div>
+
+<div class="container landingContent">
+    <div class="row">
+        <div class="landingText col-10 col-lg-12">
+                 <span class="spanOne">Payment
+                 </span>
+                 <br>
+                 <div class="line-align d-flex justify-content-center">
+                     <div class="line"></div>
+                </div>
+                 <span class="spanTwo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos hic nemo quas </span> 
+
+                
+        </div>
+        
+    </div>
+</div>
+</section>
+
+<section class="section-payment">
+
+   
+    <div class="col-md-8">
+        <div class="payment">
+            <span>Payment</span>
+            <span><i class="fa fa-angle-right"></i></span>
+            <span>Payment for Reservation</span><br>
+            <span class="timezone">Your time zone:</span> 
+            <span class="datetoday"></span>
+            
+        </div>
+     </div>
+
+     <div class="container-fluid">
+         <div class="schedule-body">
+             <div class="row">
+                 <div class="col-12 col-lg-7">
+
+                    <div class="payment-btn">
+                        <a href="appoint-schedule.html"><span class="payment-back">Back</span></a>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="leftside col-12 col-lg-6">
+                            <span>Credit/Debit Card</span>
+                            <form>
+                                <input class="cardnum" type="text" placeholder="Card Number">  
+                            </form>
+
+                            <form>
+                                <input class="namecard" type="text" placeholder="Name of Card">
+                            </form>
+
+                            <div class="my">
+                            <div class="dropdown-months">
+                                <button class="btn btn-secondary dropdown-toggle btnmonthside" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 Card Month
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <span class="dropdown-jan">January</span>
+                                  <span class="dropdown-feb">February</span>
+                                  <span class="dropdown-march">March</span>
+                                  <span class="dropdown-april">April</span>
+                                  <span class="dropdown-may">May</span>
+                                  <span class="dropdown-june">June</span>
+                                  <span class="dropdown-july">July</span>
+                                  <span class="dropdown-aug">August</span>
+                                  <span class="dropdown-sept">September</span>
+                                  <span class="dropdown-oct">October</span>
+                                  <span class="dropdown-nov">November</span>
+                                  <span class="dropdown-dec">December</span>
+                                </div>
+                              </div>
+
+                              <div class="dropdown-years">
+                                <button class="btn btn-secondary dropdown-toggle btnyearside" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Card Year
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <span class="dropdown-2008">2008</span>
+                                  <span class="dropdown-2009">2009</span>
+                                  <span class="dropdown-2010">2010</span>
+                                  <span class="dropdown-2011">2011</span>
+                                  <span class="dropdown-2012">2012</span>
+                                  <span class="dropdown-2013">2013</span>
+                                  <span class="dropdown-2014">2014</span>
+                                  <span class="dropdown-2015">2015</span>
+                                  <span class="dropdown-2016">2016</span>
+                                  <span class="dropdown-2017">2017</span>
+                                  <span class="dropdown-2018">2018</span>
+                                  <span class="dropdown-2019">2019</span>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="cvv">
+                                <form>
+                                    <input class="cvvnum" type="text" placeholder="CVV">                             
+                                    <span class="questionmark" data-toggle="tooltip" data-placement="right" title="Look for the 3-digit code printed on the front of your card just above and to the right of your main credit card number.">?</span>                                   
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="rightside col-12 col-lg-6">
+                           <span class="title">Reservation Appointment Fee</span>
+                           <span class="title">Reservation Fee &#8369;300</span>
+
+                            <div class="rightbtn">
+                                <button class="reserve-button"><i class="fas fa-paw"></i> Reserve Now</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="reserved col-12 col-lg-5">
+                      <h2 class="span1"></h2>
+                      <span class="spantext">Email: </span><span class="emailreserved"></span><br>
+                      <span class="spantext">Firstname: </span><span class="firstnamereserved"></span><br>
+                      <span class="spantext">Lastname: </span><span class="lastnamereserved"></span><br>
+                      <h2 class="span2"></h2>
+                      <span class="spantext">Date: </span><span class="datereserved"></span> <span class="monthreserved"></span><br>
+                      <span class="spantext">Time: </span><span class="timereserved"></span><br>
+                      <h2 class="span3"></h2>
+                      <span class="spantext">Owner: </span><span class="ownerreserved"></span><br>
+                      <span class="spantext">Pet: </span><span class="catdogreserved"></span><br>
+                      <span class="spantext">Name of pet: </span><span class="nameofpetreserved"></span><br>
+                      <span class="spantext">Breed of pet: </span><span class="breedreserved"></span><br>
+                      <span class="spantext">Appointment: </span><span class="checkupreserved"></span><br>
+                      <span class="spantext">Others: </span><span class="otherreserved"></span><br>
+                      <div class="ok">
+                        <button class="btnok">OK</button>
+                        <button class="btnCancel">Cancel</button>
+                    </div>
+                  </div>
+
+              
+             </div>
+         </div>
+     </div>
+
+
+    <div class="signupform" style="display: none;">
+        <div class="closeIcon">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="signupContent">
+            <h2>Create Your Account</h2>
+            <form>
+                <span>Email</span><br>
+                <input class="email" type="text" name="email" placeholder="Email"><br>
+                    
+                <span>First Name</span><br>
+                <input class="fname" type="text" name="fname" placeholder="Enter First Name"><br>
+
+                <span>Surname</span><br>
+                <input class="lname" type="text" name="lname" placeholder="Enter Surname"><br>
+
+                <span>Phone Number</span><br>
+                <input class="phoneNum" type="text" name="phonenum" placeholder="Enter Phone Number"><br>
+
+                <span>Age</span><br>
+                <input class="age" type="text" name="age" placeholder="Enter Your Age"><br> 
+            </form>
+
+            <form>
+                <span>Birthday</span><br>
+                <input type="date" name="bday" value="1970-01-01">
+
+                
+                <span>Gender</span><br>
+                <select class="gender">
+                    <option value="male">Male</option>
+                    <option value="famale">Female</option>          
+                </select><br><br>
+                
+    
+                    <span>Password</span>
+                    <input class="password" type="password" name="password_new" placeholder="Enter Your Password">
+            </form>
+          
+            <div class="submit">
+                <button class="btnsubmit">Submit</button>
+            </div>
+           
+        </div>
+    </div>
+
+
+    <div class="loginform" style="display: none;">
+        <div class="loginIcon">
+            <img src="img/loginLogo.png" alt="">
+            <span class="loginhere">Login Here</span>
+
+        </div>
+
+   
+        <div class="loginContent">
+                <form>
+                    <span>Username</span><br>
+                    <input class="username" type="text" name="username" placeholder="Enter Username"><br>
+                    <span>Password</span><br>
+                    <input class="password" type="password" name="password" placeholder="Enter Password"><br>        
+                </form>
+                <div class="submit">
+                        <button class="btnlogin">Login</button>
+                </div>
+                <span class="donthave">Don't have an account</span>
+        </div>
+
+     
+        
+    </div>
+
+    
+    <div class="overlayopen" style="display: none;">
+    </div>
+  
+    
+</section>
+
+
+
+
+
+
+
+<section class="section-footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer col-md-12">
+                <span>Racsy&Racky's 
+                </span>
+                <span>Store</span>
+                <span>&copy; 2019 MyEcommerce. All Rights Reserved</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/Navbar.js"></script>
+<script src="js/appointment-3rdpage.js"></script>
+<script src="js/signup.js"></script>
+<script src="js/login.js"></script>
+<!-- <script src="js/appointment-2stpage.js"></script> -->
+<!-- <script src="js/aboutnavbar.js"></script> -->
+<!-- <script src="js/sticky-leftpart.js"></script> -->
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+     $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+ });
+
+
+ </script>
+
+</body>
+</html>

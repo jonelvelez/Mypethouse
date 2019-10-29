@@ -1,0 +1,29 @@
+@import "variables";
+
+//Homepage
+@import "homepage/section-navbar";
+@import "homepage/section-landing";
+@import "homepage/section-ads";
+@import "homepage/section-product";
+@import "homepage/section-footer";
+
+
+//Product
+@import "product/section-landing-product";
+@import "product/section-products-product";
+
+//About
+
+@import "about/section-landing-about";
+@import "about/section-about";
+
+//Appointment Schedule
+@import "appointment/section-appointment";
+@import "appointment/section-landing-appointment";
+@import "appointment/section-scheduling";
+@import "appointment/section-payment";
+
+//Contact
+
+@import "contact/section-landing-contact";
+@import "contact/section-contact";

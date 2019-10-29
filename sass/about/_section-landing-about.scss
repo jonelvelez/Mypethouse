@@ -1,0 +1,76 @@
+.section-landing-about{
+    background: rgba(146, 146, 146, 0.658);
+    
+    .landing{
+        height: 50vh;
+        background-image: url(../img/aboutbanner.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top;
+        position: relative;
+        z-index: -1;
+       
+    }
+
+    .landingText{
+        padding: 0!important;
+    }
+
+    .landingContent{
+        position: absolute;
+        top: 20%;
+        left: 5%;
+        color: #000;
+        // text-transform: uppercase;
+        text-align: center;
+        .spanOne{
+            font-size: 40px;
+            font-weight: 700;
+            // text-shadow: 2px 2px 8px rgb(0, 0, 0);
+            font-family: 'Playfair Display', serif;
+            
+        }
+
+        .spanTwo{
+            font-size: 10px; 
+            font-weight: 500;
+            // text-shadow: 2px 2px 8px rgb(0, 0, 0);
+        }
+    }
+
+    .line{
+        width: 200px;
+        height: 2px;
+        background: #fff;
+        // position: absolute;
+        // left: 46%;
+        // top: 100%;
+        // transform: translate(-100px, 20px);
+    }
+
+    @media only screen and (max-width: 1024px){
+    .landing{
+        max-width: 100%;
+        background-size: 100% 100%;
+     }
+
+     .spanOne{
+        font-size: 25px !important;
+        font-weight: 700;
+        // text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
+
+    .spanTwo{
+        font-size: 10px !important; 
+        font-weight: 500;
+        // text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    }
+
+   
+
+  
+
+    
+    }
+ }
+ 
